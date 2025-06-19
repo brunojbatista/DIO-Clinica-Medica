@@ -41,7 +41,7 @@ cd seu-repositorio
 
 3. Execute o código:
 ```bash
-python main.py
+python index.py
 ```
 
 4. Informe o número de pacientes e os dados no formato:

@@ -21,7 +21,7 @@ Este projeto implementa um sistema de gerenciamento de consultas médicas em Pyt
 /services
 └── MedicalManagementSystemService.py
 
-main.py
+index.py
 README.md
 ```
 

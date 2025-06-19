@@ -22,7 +22,7 @@ class Priority:
         self._weight: int = None
 
         self.name = name
-        self.weight = WEIGHT_PRIORITIES_LIST[DEFAULT_PRIORITY]
+        self.weight = WEIGHT_PRIORITIES_LIST[name] if name in WEIGHT_PRIORITIES_LIST else WEIGHT_PRIORITIES_LIST[DEFAULT_PRIORITY]
 
     @property
     def name(self) -> str:
